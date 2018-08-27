@@ -2,4 +2,4 @@
 
 build:
 	docker build -t build-i3 .
-	 docker run --rm -v "$$PWD/out:/out" -it build-i3
+	 docker run --rm -v "$$PWD/out:/out" -t build-i3
