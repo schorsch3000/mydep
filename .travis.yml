@@ -1,2 +1,5 @@
+sudo: required
+services:
+  - docker
 script:
-  - ./buildAll.sh
+  - sudo ./buildAll.sh
