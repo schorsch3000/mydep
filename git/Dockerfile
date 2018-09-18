@@ -12,7 +12,8 @@ RUN apt-get install -y \
     bison \
     wish \
     gettext \
-    zlib1g-dev
+    zlib1g-dev \
+    libcurl4-openssl-dev
 
 
 
