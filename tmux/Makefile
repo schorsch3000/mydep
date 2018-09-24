@@ -2,4 +2,4 @@
 
 build:
 	docker build -t build-tmux .
-	docker run --rm -v "$$PWD/out:/out" -it build-tmux
+	docker run --rm -v "$$PWD/out:/out" -t build-tmux
