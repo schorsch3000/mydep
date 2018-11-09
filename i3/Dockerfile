@@ -1,5 +1,5 @@
 FROM debian:stretch
-ENV VERSION=4.15
+ENV VERSION=4.16
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get install -y \
