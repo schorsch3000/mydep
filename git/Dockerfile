@@ -1,5 +1,5 @@
 FROM debian:stretch
-ENV VERSION=2.18.0
+ENV VERSION=2.19.2
 ENV TAG_VERSION_PREFIX=v
 RUN apt-get update
 RUN apt-get -y upgrade
