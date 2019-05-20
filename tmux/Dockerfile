@@ -1,5 +1,5 @@
 FROM debian:stretch
-ENV VERSION=2.8
+ENV VERSION=2.9a
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get -y install \

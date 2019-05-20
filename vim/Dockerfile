@@ -1,5 +1,5 @@
 FROM debian:stretch
-ENV VERSION=8.1.0329
+ENV VERSION=8.1.1359
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get -y install \
